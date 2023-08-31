@@ -2,7 +2,10 @@
 
 [//]: # (You will need node so download that)
 https://nodejs.org/en/download
+https://code.visualstudio.com/download
+https://gitforwindows.org/
 
+[//]: # (Then you can open the terminal from the menu at the top of vscode and run the commands below)
 npm i  
 npm run dev
 
