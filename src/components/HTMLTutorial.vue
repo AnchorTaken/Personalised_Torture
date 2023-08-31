@@ -1,8 +1,8 @@
 <template>
   <!-- 02. This is a div. Think of it as a box that wraps whatever you need inside of it. That is all you need to learn for HTML-->
   <div></div>
-  <!--  02.1 Optional -->
 
+  <!--  ! All of the HTML tags below are Optional -->
   <!--   Here are couple other tags that also will be used but are not needed for now -->
   <h1></h1> - <h5></h5>
   <!--  These are mainly used for headers. So any title you make ideally should be inside and H tag-->
@@ -15,7 +15,8 @@
   <!--  02.3 Divs and any other HTML components are called an element  -->
   <!--  02.4 Every element can have a class name or a "class" those clases dictate the styling on the elements -->
   <div class=""></div>
-  <!--02.5 You will frequently see elements that look something like this -->
+
+  <!--  02.5 You will frequently see elements that look something like this -->
   <div class="relative m-auto text-xl text-zinc-500">This is a slice of text within the element</div>
   <!--  02.6 These classes dictate what styling is applied according to "tailwind" specifications.-->
   <!--  02.7 The explanation for the classes can be found here https://nerdcave.com/tailwind-cheat-sheet. However you wont need those anytime soon-->

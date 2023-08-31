@@ -1,8 +1,9 @@
 <template>
   <!-- 01. Follow the numbers and do the things in order of the numbers -->
   <!-- 01.1 This is the first thing you need to learn. HTMLTutorial is a component meaning its a tiny slice of code that has been brought up externally into this document but it displays exactly the same way as the normal code. -->
+  
   <div class="hidden">
-    <!-- I wrapped the component in a div with a class of hidden just so it doesnt show up in the dom -->
+    <!-- I wrapped the component in a div with a class of hidden just so it doesnt show up in the dom (browser window) -->
     <HTMLTutorial/>
     <JSTutorial/>
   </div>

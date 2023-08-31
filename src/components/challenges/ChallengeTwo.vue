@@ -1,10 +1,10 @@
 <template>
   <!-- 05 Now lets make this a little more spicy  -->
-  <div class="m-auto w-4/12 space-y-6">
-    <!--05.2 Lets begin by mapping all of our data. For this we will need another vue bind called v-for which goes through all of our data and mapps all of it out to individual objects -->
 
+  <div class="m-auto w-4/12 space-y-6">
+    <!--    05.2 Lets begin by mapping all of our data. For this we will need another vue bind called v-for which goes through all of our data and mapps all of it out to individual objects -->
     <!--    05.3 Now then lets take our data and tell the v-for what todo-->
-    <!--    item is our individual item we are going to be calling within the loop. Followed by i which is our index meaning the number of the object within the array (an array is just a list of values that can be mapped signified by []) -->
+    <!--    item is our individual object we are going to be calling within the loop. Followed by i which is our index meaning the number of the object within the array (an array is just a list of values that can be mapped signified by []) -->
     <!--    after we declared what data we want to map it is a good idea to give it a :key to make sure there are no weird issues. we dont need to think too hard and just add the index to the key every time we add a key-->
 
     <div v-for="(item, i) in data" :key="i">
