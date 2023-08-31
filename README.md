@@ -1,28 +1,44 @@
-## Commands you need to know
+# Learn to code
 
-[//]: # (You will need node so download that)
-https://nodejs.org/en/download
-https://code.visualstudio.com/download
-https://gitforwindows.org/
+## 🌱 Prerequisites
 
-[//]: # (Then you can open the terminal from the menu at the top of vscode and run the commands below)
-npm i  
+Before diving into the Vue code, make sure you've got a few tools installed on your computer:
+
+- [Node.js](https://nodejs.org/en/download)
+- [Visual Studio Code](https://code.visualstudio.com/download)
+- [Git for Windows](https://gitforwindows.org/)
+
+## 🌻 Terminal Commands
+
+Open your terminal in Visual Studio Code and run the following commands to set up the environment:
+
+```bash
+npm i
 npm run dev
+```
 
-# Files
-## Here is how the software is structured and what things I want you to remember
+## 🌼 File Structure and Key Points
 
-**/ or also known as root folder**
-public - is for images and videos available to every used
+Let's understand how your Vue software is structured! ✨
 
-**/src**
-is your software files and is going to be mostly the only folder you need
+### `/` Root Folder
 
-there are a couple folders in this folder. you may ignore all of the besides components
+**public**  
+This folder is for images and videos that are available to every user. Think of it as your resource bucket. 🌺
 
-**Now files**
-App.vue is the main file you will be using as your point of reference. it will contain all the info you need to progress forward
+### `/src` Folder
 
-main.js is your main system file. is the file that holds all of the code together and is the file that is called when the user visits the website.
+**src**  
+This is where the magic happens! Most of your development will take place here. 🌠
 
-Ignore this for now 
+#### Subfolders to Ignore
+
+Feel free to ignore other subfolders for now. The main focus should be on the `components` folder. 🌙
+
+### 📁 Important Files
+
+**App.vue**  
+Consider this your main guidebook. 📖 It's your central hub that contains all the pointers you'll need to progress. Keep this file close! 🌹
+
+**main.js**  
+Think of this as the backbone of your application. 🌈 It holds everything together and is the first thing that gets executed when a user visits your website.
