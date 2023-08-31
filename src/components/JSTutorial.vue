@@ -17,14 +17,14 @@
   <div class="text-red-500" v-if="isRed !== false">This text is red</div>
 
   <!-- 03.7 You can also stack checks. Below in the JS code i've created a isGreen state. Its the same exact state as the red but instead of false it is set to true by default-->
-  <!--  03.8 Now lets check for whether the red and the green are both false-->
+  <!-- 03.8 Now lets check for whether the red and the green are both false-->
   <!-- 03.9 This piece of code will check whether both isRed and isGreen are both false and then display the elemnt otherwise it will be invisible  v-if="!isRed && !isGreen"  -->
   <div class="text-red-500" v-if="!isRed && !isGreen">This text is red</div>
 
   <!--  03.10 Alternatively you can check for one of the two values being true and show the element like below -->
   <div class="text-red-500" v-if="isRed || isGreen">This text is red</div>
 
-  <!--  03.11 This can be mixed and matched to your desire. These will get significantly more complex later on but that will be your choice-->
+  <!-- 03.11 This can be mixed and matched to your desire. These will get significantly more complex later on but that will be your choice-->
   <!-- 03.12 Now that we have learned this. Lets go and build something with it. Go to challenges/challengeone.vue-->
 </template>
 
