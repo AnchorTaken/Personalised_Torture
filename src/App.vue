@@ -10,7 +10,8 @@
 
   <!--  Challenges -->
   <div class="h-screen w-full flex">
-  <ChallengeOne/>
+    <ChallengeOne/>
+    <ChallengeTwo/>
   </div>
 </template>
 
@@ -18,5 +19,6 @@
 // 01.2 The components are brought in here
 import HTMLTutorial from "./components/HTMLTutorial.vue";
 import JSTutorial from "./components/JSTutorial.vue";
-import ChallengeOne from "./components/challenges/ChallengeOne.vue"; // 01.3 Navigate to the Components folder and open HTMLTutorial.vue
+import ChallengeOne from "./components/challenges/ChallengeOne.vue";
+import ChallengeTwo from "./components/challenges/ChallengeTwo.vue"; // 01.3 Navigate to the Components folder and open HTMLTutorial.vue
 </script>

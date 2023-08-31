@@ -15,7 +15,7 @@
     </button>
 
     <!--    04.6 Alternatively you can change the state within the @click event itself shown in example below-->
-    <button class="mt-2 rounded-full bg-zinc-700 px-5 py-1 text-white" @click="isRed.value = !isRed.value"> Toggled red
+    <button class="mt-2 rounded-full bg-zinc-700 px-5 py-1 text-white" @click="isRed = !isRed"> Toggled red
       within the @click event
     </button>
     <!--   ! Most of the times you can get away with changing state within the @click event but there are some edgecases where you need to call multiple functions within the same event and that can very quickly become tricky -->
@@ -32,7 +32,7 @@
     <p class="text-green-600">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At iusto, maxime sint suscipit
       tempore voluptatum! Aliquam, facilis perspiciatis? Esse, praesentium.</p>
     <button class="mt-2 rounded-full bg-green-700 px-5 py-1 text-white"> Show Green</button>
-    <!--04.9 Achieve that and the task is complete -->
+    <!-- 04.9 Achieve that and the task is complete. Now you can move on to challenge two -->
   </div>
 </template>
 <script setup>
