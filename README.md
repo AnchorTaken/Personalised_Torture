@@ -1,4 +1,8 @@
 ## Commands you need to know
+
+[//]: # (You will need node so download that)
+https://nodejs.org/en/download
+
 npm i  
 npm run dev
 
